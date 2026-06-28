@@ -52,7 +52,7 @@ let titanStats2 = {...Titanattr1,...Titanattr2,...titanattr3}           //spread
 console.log(titanStats2);
 
 //important methods to be discussed
-console.log(Object.keys(titanStats2))
-console.log(Object.values(titanStats2))
-console.log(Object.entries(titanStats2));
-console.log(titanStats2.hasOwnProperty("Weight"));
+console.log(Object.keys(titanStats2))      //Object.keys is used to get the keys of the object
+console.log(Object.values(titanStats2))        //Object.values is used to get the values of the object
+console.log(Object.entries(titanStats2));            //Object.entries is used to get the entries of the object
+console.log(titanStats2.hasOwnProperty("Weight"));         //hasOwnProperty is used to check if the object has the property

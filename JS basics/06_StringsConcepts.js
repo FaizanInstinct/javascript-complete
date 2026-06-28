@@ -19,7 +19,7 @@ console.log(`My name is ${name1} and my age is ${age}`);
 let gameName= "Doom Eternal"
 console.log(gameName);                 //Regular way
 
-let gameName2 = new String (`Doom Eternal`)
+let gameName2 = new String (`Doom Eternal`)  //Using new keyword, the difference is that it will create an object of that string and it will have a lot of methods and properties that we can use
 console.log(gameName2);
 
 // Accessing methods of strings

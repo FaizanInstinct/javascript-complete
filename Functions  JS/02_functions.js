@@ -1,9 +1,9 @@
-// function addToCart (var1,var2,var3, ...price) {
-//     console.log(`Added to cart ` );
-//     return var1, var2, var3
-// }
+function addToCart (var1,var2,var3, ...price) {
+    console.log(`Added to cart ` );
+    return var1, var2, var3
+}
 
-// console.log(addToCart(5000,1000,2000,3000))
+console.log(addToCart(5000,1000,2000,3000))
 
 
 function addToCart (...price) {
@@ -11,7 +11,7 @@ function addToCart (...price) {
     return price
 }
 
-console.log(addToCart(5000,1000,2000,3000))
+console.log(addToCart(5000,1000,2000,3000))  //Destructuring array as arguments within the function
 
 let user= {
      name: "Faizan",

@@ -3,14 +3,14 @@
 //there are two types of objects singleton and literal
 
 
-let mySymbol = Symbol("my symbol")
+let mySymbol = Symbol("my symbol")           //Symbol is used to create a unique identifier
 
 let webUser = 
 {
     firstName: "faizan",
     "lastname" : "Ahmed",
     age: 26,
-    [mySymbol] : "my symbol2",
+    [mySymbol] : "my symbol2",  //Symbol is used to create a unique identifier
     city: "Rawalpindi",
     email : "faizan@g.com",
     phone: "1234567890",

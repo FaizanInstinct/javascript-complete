@@ -1,6 +1,6 @@
 "use strict";
 
-//alert(3+3)      //We are using node js and not browser, node handles the alert function differently than the browser...
+// alert(3+3)      //We are using node js and not browser, node handles the alert function differently than the browser...
 
 let name="Faizan"      //Type = string
 let age= 26              // Type= number or you can integer type 
@@ -27,8 +27,16 @@ let Student=
    Enrolled: true,
 };
 
-console.log(Student.StdID)
-console.log(Student.Stdname)
-console.log(Student.Enrolled);
+// console.log(Student.StdID)
+// console.log(Student.Stdname)
+// console.log(Student.Enrolled);
+
+// //console.log(StdID);
+// console.log(Student.StdCampus);
+
+let myarray= [1,2,3,4,5]
+console.log(myarray);
+console.log(typeof myarray);
+
 
 

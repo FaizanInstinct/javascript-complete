@@ -17,7 +17,7 @@
 
 // greet()  //greet is the function reference and () is the function calling
 
-    function sum (number1, number2)       /*function declaration and giving parameters*/ {
+    function sum (number1, number2) {    /*function declaration and giving parameters*/ 
      let sum = number1 + number2
      console.log(sum);
     
@@ -29,7 +29,7 @@
 
 function loginMessage(username="Guest") {
 
-    if (!username) {
+    if (!username) {                    //Ternary operator is a conditional statement
        console.log("Please enter a username");
         return
     }

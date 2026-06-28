@@ -1,7 +1,16 @@
 let score = 33
+console.log(score);
+
 let valueInNum = String (score)
 console.log("Type is = ",typeof valueInNum);
 console.log("Value is = ",valueInNum);
+
+
+let string1 = "111"
+console.log(string1);
+let valueInNum1 = Number (string1)
+console.log("Type is = ",typeof valueInNum1);
+console.log("Value is = ",valueInNum1);
 
 /* Investigation:
 --String to number = converted

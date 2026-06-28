@@ -3,15 +3,15 @@
 const Dbz_heroes = [                           
     {
         name: "Goku",
-        power: 10000
+        power: 10000           // OBJECT 1
     },
     {
-        name: "Gohan",                            
+        name: "Gohan",         // OBJECT 2                   
         power: 9000
     },
     {
         name: "Vegeta",
-        power: 8000
+        power: 8000            // OBJECT 3
     },
 ]
 
@@ -45,8 +45,8 @@ const BC_heroes = [
     },
 ]
 
- //Dbz_heroes.push(naruto_heroes , BC_heroes);                   //Push method add elements to an existing array of any data types
- // console.log(Dbz_heroes);
+//  Dbz_heroes.push(naruto_heroes , BC_heroes);                   //Push method add elements to an existing array of any data types
+//  console.log(Dbz_heroes);
 
   //let anime_Heroes = Dbz_heroes.concat(naruto_heroes, BC_heroes);           //concat method add elements to an existing array of any data types
   //console.log(anime_Heroes);
